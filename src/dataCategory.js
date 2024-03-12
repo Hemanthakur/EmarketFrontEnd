@@ -1,0 +1,23 @@
+[
+    {
+        "vegitables":[
+            "patato",
+            "onion",
+            "ginger"
+        ]
+    },
+    {
+        "fruits":[
+            "mango",
+            "apple",
+            "grapes"
+        ]        
+    },
+    {
+        "grains":[
+            "rice",
+            "wheat",
+            "dall",
+        ]
+    }
+]

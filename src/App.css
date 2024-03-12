@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(248, 204, 224); */
+}
+/* for btn css */
+.red{
+  color: red;
+}
+.btnclasic{
+  width: 100px;
+}
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 1px solid red;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-warning {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  text-decoration: none;
+  background: transparent!important;
+  color: rgb(24, 23, 23)!important;
+}
+.btn-warning:hover{
+  text-decoration: none;
+  background: transparent!important;
+  color: yellow!important;
+}
+.distance{
+  margin: 50px;
+}
+/* end of btn css */
+
+
+/* login css */
+.login-register-h1{
+  color: rgb(15, 15, 15);
+}
+div.auth-form-container
+{
+    display: block;
+    text-align: center;
+    opacity: 1;
+    z-index: 2;
+}
+.auth-form-container
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* z-index: 2; */
+    width: 55%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 2.7%;
+    padding: 5%;
+    text-align: center;
+    background: linear-gradient(112.1deg, rgb(148, 220, 206) 11.4%, rgb(64, 109, 113) 70.2%);
+    /* background: rgba(0, 0, 0, 0.6); */
+    border: 1px solid rgb(233, 84, 84);
+    border-radius: 5%;
+}
+.profile{
+  display: block;
+  position: relative;
+  justify-content: center;
+  width: 55%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-bottom: 2.7%;
+  padding: 5%;
+  text-align: center;
+  border: 2px solid rgb(144, 96, 240);
+  border-radius: 60px;
+  opacity: 0.8;
+}
+
+.login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page-label{
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 0%;
+}
+
+.login-page-input{
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  border: none;
+  border-radius: 40px;
+}
+
+.login-register-btn{
+  border: none;
+  background-color:rgb(101, 93, 93);
+  width: 40%;
+  padding: 2%;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.9s;
+}
+
+.login-register-btn:hover{
+  background-color: #8cff1a;
+}
+
+.logreg-btn{
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+  transition: 0.5s;
+  padding: 20px;
+  margin:auto;
+  border: none;
+}
+
+.logreg-btn:hover{
+  color:#8cff1a;
+}
+/* login css end */
+/* Start of Register */
+.register-page-label{
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(74, 70, 70);
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 0%;
+}
+
+.register-page-input{
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  border: none;
+  border-radius: 40px;
+}
+/*End of Register*/
+/* images size */
+.imageSize{
+  height: 500px;
+}
+.imageInCard{
+  width: 100%;
+  height: 200px;
+}
+
+/* end of Image size */
+/* product h1 tag header h1 */
+.title-header{
+  text-align: center;
+}
+/* product h1 tag header h1 */
+/* card */
+.card{
+  display: flex;
+  /* flex-direction: column; */
+  width: 18rem;
+}
+
+/* cardend */
+
+/* footer start*/
+/* .footer{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  bottom: 0;
+} */
+/* footer end*/
+.singleproduct{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerproduct{
+  width: 50%;
+  height: 100px;
+  
+}
+.productinfo{
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* Dashboard Navbar start */
+.navbar {
+  background-color: #060b26;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+/* Dashboard Navbar end */
+/* experiment */
+body {
+	background: linear-gradient(-45deg, #b5f5f1, #f8d188, #9af7af, #d389bd);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* experiment */
+/* nav */
+.nav-link{
+  padding: 8px 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: .5s linear;
+  font-weight: 800;
+  -webkit-transition: .5s linear;
+  -moz-transition: .5s linear;
+  -ms-transition: .5s linear;
+  -o-transition: .5s linear;
+  color: rgb(20, 17, 17) !important;
+}
+.bg-transparent.scrolled {
+  background-color: rgb(12, 12, 12)!important;
+  transition:500ms ease;
+}
+
+.navbar-brand{
+  font-size: 32px!important;
+  color: #ffffff!important;
+}
+.nav-link:hover{
+  color: #ffffff;
+  border-bottom: 2px solid #f3170b;
+}
+.nav-link.active_class{
+color: #ffffff;
+border: 2px solid #ffffff;
+font-weight: 800;
+}
+/* nav */
+.black{
+  color: #090909 !important;
+}
